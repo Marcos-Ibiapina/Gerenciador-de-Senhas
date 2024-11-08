@@ -57,4 +57,3 @@ class FernetHasher:
             return self.fernet.decrypt(value).decode()
         except InvalidToken as e:
             return 'Token Inválido'
-
